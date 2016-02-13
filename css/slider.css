@@ -1,0 +1,41 @@
+.wrapper{
+	width: 600px;
+	margin: 0 auto;
+}
+
+p{
+	text-align: center;
+	
+}
+
+#slider{
+	width: 600px;
+	height: 500px;
+	overflow: hidden;
+	margin: 30px auto;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#slider > img{
+	float: left;
+	display: none;
+}
+
+a{
+	padding: 5px 10px;
+	background-color: #f0f0f0;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #666;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+a.left{
+	float: left;
+}
+
+a.right{
+	float: right;
+}
